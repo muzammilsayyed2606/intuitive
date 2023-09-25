@@ -1,5 +1,6 @@
 provider "aws" {
   region  = local.region
+  shared_credentials_file = "~/.aws/credentials"
 
   # Make it faster by skipping something
   skip_metadata_api_check     = true
