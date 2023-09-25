@@ -1,6 +1,5 @@
 provider "aws" {
   region  = local.region
-  profile = "non-prod"
 
   # Make it faster by skipping something
   skip_metadata_api_check     = true
