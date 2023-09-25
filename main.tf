@@ -1,5 +1,6 @@
 provider "aws" {
   region  = local.region
+  source_profile = default
 
   # Make it faster by skipping something
   skip_metadata_api_check     = true
