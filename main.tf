@@ -1,7 +1,5 @@
 provider "aws" {
   region  = local.region
-  shared_config_files=["/home/muzammilsayyed/.aws/config"]
-  shared_credentials_files = ["/home/muzammilsayyed/.aws/credentials"]
 
   # Make it faster by skipping something
   skip_metadata_api_check     = true
