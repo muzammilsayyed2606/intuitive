@@ -11,8 +11,6 @@ terraform {
 provider "aws" {
   # Configuration options
 }
-
-provider "aws" {
   region  = local.region
 
   # Make it faster by skipping something
