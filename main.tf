@@ -1,7 +1,7 @@
 provider "aws" {
   region  = local.region
-  shared_config_files=["\\wsl.localhost\Ubuntu\home\muzammilsayyed\.aws"]
-  shared_credentials_files = ["\\wsl.localhost\Ubuntu\home\muzammilsayyed\.aws"]
+  shared_config_files=["C:/Users/mastersofa/.aws/config"]
+  shared_credentials_files = ["C:/Users/mastersofa/.aws/credentials"]
 
 
   # Make it faster by skipping something
