@@ -8,9 +8,6 @@ terraform {
   }
 }
 
-provider "aws" {
-  # Configuration options
-}
   region  = local.region
 
   # Make it faster by skipping something
@@ -18,8 +15,6 @@ provider "aws" {
   skip_region_validation      = true
   skip_credentials_validation = true
   skip_requesting_account_id  = true
-}
-
 
 data "aws_availability_zones" "available" {}
 
