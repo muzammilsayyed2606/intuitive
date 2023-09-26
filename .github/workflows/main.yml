@@ -49,4 +49,4 @@ jobs:
       - name: Clean Up
         if: success()
         run: |
-          rm tfplan
+          terraform destroy -auto-approve tfplan
